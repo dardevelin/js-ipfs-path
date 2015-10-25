@@ -1,5 +1,5 @@
 var base58 = require('bs58')
-var multihash = require('multihash')
+var multihash = require('multihashes')
 
 function decodeMultihash (hash) {
   return multihash.decode(new Buffer(base58.decode(hash)))
