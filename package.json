@@ -1,0 +1,23 @@
+{
+  "name": "ipfs-path",
+  "version": "0.0.0",
+  "description": "Helper functions for IPFS path handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ipfs",
+    "path",
+    "hash",
+    "multihash",
+    "protocol",
+    "labs"
+  ],
+  "author": "Matt Bell <mappum@ipfs.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bs58": "^3.0.0",
+    "multihashes": "^0.1.3"
+  }
+}
